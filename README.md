@@ -12,14 +12,14 @@
 
 ### 6. Berdasarkan data pada file SQL
 
-username: admin
+username: admin <br/>
 password: 123456
 <br/><br/>
-username: guru
+username: guru <br/>
 password: 123456
 <br/><br/>
-username: siswa
+username: siswa <br/>
 password: 123456
 <br/><br/>
-username: parent
+username: parent <br/>
 password: 123456
