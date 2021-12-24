@@ -26,7 +26,7 @@ if (isset($_POST['login'])) {
         $sql1 = "select * from admin_akses where login_id = '$login_id'";
         $q1 = mysqli_query($koneksi_login, $sql1);
         while ($r1 = mysqli_fetch_array($q1)) {
-            $akses[] = $r1['akses_id']; //spp, guru, siswa
+            $akses[] = $r1['akses_id'];
         }
         if (empty($akses)) {
             $err .= "<li>Kamu tidak punya akses ke halaman admin</li>";
@@ -271,8 +271,8 @@ if (isset($_POST['login'])) {
             <div class="made-with-love">
                 Made with 
                 <i>♥</i> by 
-                <a target="_blank" href="#">Christopher Baptista</a>
-            </div>	
+                <a target="_blank" href="https://github.com/christopherbaptista/easpweb-phpnative.git">Christopher Baptista</a>
+            </div>
         </div>
         
     </div>
