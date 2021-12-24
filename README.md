@@ -9,3 +9,17 @@
 ### 4. Import file `multiuser.sql` ke dalam database yang telah anda buat
 
 ### 5. Buka browser dan ketik `http://localhost/easpweb-phpnative`, pastikan sesuai dengan nama folder pada htdocs
+
+### 6. Berdasarkan data pada file SQL
+
+username: admin
+password: 123456
+<br/><br/>
+username: guru
+password: 123456
+<br/><br/>
+username: siswa
+password: 123456
+<br/><br/>
+username: parent
+password: 123456
